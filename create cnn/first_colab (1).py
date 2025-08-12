@@ -9,7 +9,7 @@ Original file is located at
 
 import numpy
 from tensorflow.keras.constraints import  max_norm
-from tensorflow.keras.utils import to_categorical  # تغییر این خط
+from tensorflow.keras.utils import to_categorical
 from tensorflow.keras.datasets import cifar10
 from sklearn.preprocessing import OneHotEncoder
 from tensorflow.keras.models import Sequential,load_model
@@ -98,7 +98,7 @@ model2.predict(X_test[0:10])[0]
 
 
 
-import seaborn as sns  # فراموش نکن seaborn هم باید import بشه
+import seaborn as sns  
 import numpy as np
 
 prediction=model.predict(X_test)
@@ -123,4 +123,3 @@ print(y_test_labels)
 # plt.xlabel('pre')
 # plt.ylabel('ac')
 # plt.show()
-
