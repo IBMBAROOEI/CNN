@@ -106,15 +106,3 @@ python detect.py \
 - This setup can be scaled to larger datasets and additional classes with minimal adjustments.
 
 ---
-
-## ⚙️ Optional: Exporting the Model
-
-You can export the trained model to formats like **ONNX** or **TensorRT** for deployment:
-
-```bash
-python export.py --weights runs/train/final_tunedv44/weights/best.pt --include onnx
-```
-
-- This allows faster inference on production environments.
-
----
